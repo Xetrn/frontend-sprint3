@@ -1,0 +1,19 @@
+.lead {
+  max-width: 984px;
+  /* calc(984px - (1184px - min(100vw, 1184px)) * (56 / 255));  альтернативное решение. Изучить.*/
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    /* calc(928px - (928px - min(100vw,928px)) * (160 / 256)); */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+    /* calc(768px - (768px - min(100vw,768px)) * (432 / 448)); */
+  }
+}

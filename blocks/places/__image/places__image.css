@@ -1,0 +1,19 @@
+.places__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 864px) {
+  .places__image {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .places__image {
+    width: 100%;
+    height: 100%;
+  }
+}
