@@ -1,0 +1,7 @@
+.table__row {
+  padding: 60px 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

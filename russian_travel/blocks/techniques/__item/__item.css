@@ -1,0 +1,19 @@
+.techniques__item {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.techniques__item-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.techniques__item-text {
+  font-size: 16px;
+  color: #666;
+}

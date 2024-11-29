@@ -1,0 +1,17 @@
+.resources__link {
+  width: 270px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.resources__link:hover {
+  opacity: 0.7;
+}
+
+.resources__link-logo {
+  background-position: center;
+  background-repeat: no-repeat;
+}
