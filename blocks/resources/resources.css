@@ -1,0 +1,11 @@
+.resources {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 0 217px;
+  overflow: hidden;
+}

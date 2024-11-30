@@ -1,0 +1,21 @@
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+}
+
+.icon_name_icon-youtube {
+  background-image: url(../../../images/youtube_color_white.svg);
+}
+
+.icon_name_icon-VK {
+  background-image: url(../../../images/vk_color_white.svg);
+}
+
+.icon_name_icon-tiktok {
+  background-image: url(../../../images/tiktok_color_white.svg);
+}
+
+.logo_place_footer {
+  background-image: url(../../../images/logo_place_footer.svg);
+}
