@@ -9,4 +9,22 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1190px) {
+  .header {
+    padding-inline: 48px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .header {
+    padding-inline: 24px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header {
+    padding: 16px 16px 0 16px;
+  }
+}
 

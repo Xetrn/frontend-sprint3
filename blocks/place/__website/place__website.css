@@ -3,3 +3,9 @@
   grid-row: 1/ 2;
   align-content: end;
 }
+
+@media screen and (max-width: 580px) {
+  .place__website {
+    padding-left: 16px;
+  }
+}

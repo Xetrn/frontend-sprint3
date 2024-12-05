@@ -6,3 +6,9 @@
   font-weight: 400;
   font-size: 24px;
 }
+
+@media screen and (max-width: 580px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}
