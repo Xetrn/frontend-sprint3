@@ -1,0 +1,15 @@
+.cover__text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+@media screen and (max-width: 676px) {
+  .cover__text{
+    padding-inline: 16px;
+  }
+}
