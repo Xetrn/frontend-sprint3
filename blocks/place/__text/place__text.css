@@ -1,13 +1,12 @@
-.place__website {
+.place__text {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  align-self: end;
+  gap: 26px;
 }
 
 @media screen and (max-width: 676px) {
-  .place__website {
-    align-self: start;
+  .place__text {
     padding-inline: 16px;
+    gap: 25px;
   }
 }
