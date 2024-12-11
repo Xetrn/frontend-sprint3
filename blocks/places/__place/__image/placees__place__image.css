@@ -1,0 +1,23 @@
+.placees__place__image {
+    grid-area: image;
+    max-width: 460px;
+}
+
+@media (max-width: 1024px) {
+    .placees__place__image {
+        max-width: 440px;
+    }
+}
+
+@media (max-width: 984px) {
+    .placees__place__image {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 720px) {
+    .placees__place__image {
+        max-width: 720px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,9 @@
+.lead__image__item_group {
+    width: 95%;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: top left;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+}
