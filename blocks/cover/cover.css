@@ -1,0 +1,20 @@
+.cover {
+    margin: 0 auto 92px;
+    max-width: 1184px;
+    width: 100%;
+    background-image: url(../../images/__background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 768px) {
+    .cover {
+        margin-bottom: 88px;
+    }
+}
+
+@media(max-width: 320px) {
+    .cover {
+        margin-bottom: 64px;
+    }
+}

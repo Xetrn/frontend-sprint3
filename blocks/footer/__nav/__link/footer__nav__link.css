@@ -1,0 +1,9 @@
+.footer__nav__link:not(:nth-child(5n)) {
+    margin-right: 18px;
+}
+
+@media(max-width: 720px) {
+    .footer__nav__link {
+        margin: 0 0 32px 5%;
+    }
+}

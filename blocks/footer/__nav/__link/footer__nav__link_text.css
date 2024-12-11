@@ -1,0 +1,13 @@
+.footer__nav__link_text {
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.footer__nav__link_text:hover {
+    opacity: 0.3;
+    transition: opacity 0.1s linear;
+}

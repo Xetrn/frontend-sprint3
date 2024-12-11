@@ -1,0 +1,25 @@
+.placees__place__title {
+    margin: 0;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+    grid-area: title;
+}
+
+@media (max-width: 984px) {
+    .placees__place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 720px) {
+    .placees__place__title {
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto;
+    }
+}

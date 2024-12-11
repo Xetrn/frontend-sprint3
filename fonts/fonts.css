@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./inter-28pt-black.woff2) format('woff2'),
+         url(./inter-28pt-black.woff) format('woff');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./Inter_28pt-Regular.woff2) format('woff2'),
+         url(./Inter_28pt-Regular.woff) format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./AnyConv.com__Inter_28pt-Bold.woff2) format('woff2'),
+         url(./Inter_28pt-Bold.woff) format('woff');
+    font-weight: 700;
+}

@@ -1,0 +1,22 @@
+.placees__place__paragraph2 {
+    margin: 0;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    line-height: 163%;
+    font-weight: 400;
+    grid-area: description2;
+}
+
+@media (max-width: 984px) {
+    .placees__place__paragraph2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 720px) {
+    .placees__place__paragraph2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,11 @@
+.placees__place__website {
+    grid-area: website;
+    align-self: end;
+}
+
+@media (max-width: 720px) {
+    .placees__place__website {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
