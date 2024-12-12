@@ -1,0 +1,134 @@
+.place {
+  padding: 40px 0;
+  display: grid;
+  gap: 48px 40px;
+  grid-template-columns: 460px 1fr;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .place {
+    gap: 48px 32px;
+    grid-template-columns: 440px 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place {
+    padding: 36px 0;
+    gap: 48px 28px;
+    grid-template-columns: 340px 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    padding: 25px 0;
+    gap: 32px;
+    grid-template-columns: minmax(288px, 1fr);
+  }
+}
+
+.place__image {
+    width: 100%;
+}
+
+.place__link {
+  padding: 0;
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+
+  transition: opacity 0.5s ease;
+}
+
+.place__link:hover {
+  opacity: 0.5;
+}
+
+.place__paragraph {
+  padding: 0;
+  margin-bottom: 26px;
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.place__paragraphs {
+  padding: 0;
+  margin: 0;
+  
+  font-size: 18px;
+  line-height: 163%;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place__paragraphs {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    padding: 0 16px;
+    font-size: 16px;
+  }
+}
+
+.place__title {
+  padding: 0;
+  margin: 0;
+
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    padding-left: 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+.place__url-heading {
+  padding: 0;
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 170%;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  color: #aaaaaa;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place__url-heading {
+    line-height: 12px;
+  }
+}
+
+.place__website {
+  align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    padding-left: 16px;
+  }
+}
