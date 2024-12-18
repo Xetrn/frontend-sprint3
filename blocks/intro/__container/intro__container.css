@@ -1,0 +1,18 @@
+.intro__container {
+  margin: 0;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 976px) {
+  .intro__container {
+    max-width: 720px;
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .intro__container {
+    max-width: calc(100% - 32px);
+    margin: 0 16px;
+  }
+}
