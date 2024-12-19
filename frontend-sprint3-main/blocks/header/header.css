@@ -1,0 +1,33 @@
+@import url(./_logo/header_logo.css);
+@import url(./_lang-links/header_lang-links.css);
+@import url(./_lang-link/header_lang-link.css);
+@import url(./_lang-link/_active/header_lang-link_active.css);
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  max-height: 52px;
+  padding-top: 28px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px){
+  .header{
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .header{
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .header{
+    max-width: 288px;
+    max-height: 42px;
+    padding-top: 16px;
+  }
+}
